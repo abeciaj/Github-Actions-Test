@@ -29,6 +29,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: jayllan23/github-actions-test
-        registry: docker.io
+        registry: docker.com
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
